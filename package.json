@@ -9,7 +9,6 @@
     "commitlint-config-yl": "^1.0.1"
   },
   "devDependencies": {
-    "eslint-config-vuepress": "^2.1.0",
-    "vuepress": "^1.2.0"
+    "eslint-config-vuepress": "^2.1.0"
   }
 }

@@ -1,7 +1,29 @@
 # 生成不重复的数组
 
-![图片](https://github.com/haizlin/fe-interview/raw/master/resource/images/begin.jpg "可选标题")
-来源于https://github.com/haizlin/fe-interview
+<template>
+  <div >
+   <img src="~@images/day1-bg.jpg" @click="isShow=true">
+  <VideoOverLay :src="currentImg" :isShow="isShow" @closeOverLay="closeOverLay"/>
+  </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      isShow:false,
+      currentImg:require('@images/day1-bg.jpg')
+    }
+  },
+  methods:{
+    closeOverLay(){
+      this.isShow=false
+    }
+  }
+}
+</script>
+
+题目来源于https://github.com/haizlin/fe-interview
 
 ## 解题思路
 

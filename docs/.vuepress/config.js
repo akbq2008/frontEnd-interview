@@ -56,7 +56,17 @@ module.exports = {
             ],
             '/css/': [
                 ''
-            ]
+            ],
         }
     },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@images': '../.vuepress/images'
+            }
+        },
+        output: {
+            publicPath: "https://cdn.suanliutudousi.com/interview/"
+        }
+    }
 }
