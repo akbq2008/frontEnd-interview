@@ -16,7 +16,7 @@ module.exports = {
 
     // 导航
     themeConfig: {
-        repo: 'akbq2008/Components',
+        repo: 'akbq2008/frontEnd-interview',
         // 将会自动在每个页面的导航栏生成生成一个 GitHub 链接，以及在页面的底部生成一个 "Edit this page" 链接。
         repoLabel: '查看源码',
         editLinks: true,
