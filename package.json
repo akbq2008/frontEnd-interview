@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vue/cli-service-global": "^4.0.5",
+    "@wepy/cli": "^2.0.0-alpha.17",
+    "commitlint-config-yl": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-vuepress": "^2.1.0",
+    "vuepress": "^1.2.0"
+  }
+}
