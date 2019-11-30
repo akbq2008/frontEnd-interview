@@ -79,7 +79,7 @@ module.exports = {
             }
         },
         output: {
-            publicPath: "https://cdn.suanliutudousi.com/interview/"
+            // publicPath: "https://cdn.suanliutudousi.com/interview/"
         }
     }
 }
