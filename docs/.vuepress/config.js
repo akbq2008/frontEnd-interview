@@ -1,7 +1,20 @@
+var os = require('os'),
+    ip = '',
+    ifaces = os.networkInterfaces() // 获取本机ip
+
+for (var i in ifaces) {
+    for (var j in ifaces[i]) {
+        var val = ifaces[i][j]
+        if (val.family === 'IPv4' && val.address !== '127.0.0.1') {
+            ip = val.address
+            break
+        }
+    }
+}
 module.exports = {
     title: '我的解题之路',
     description: '我的解题之路',
-    host: '192.168.2.82',
+    host: ip,
     // 注入到当前页面的 HTML <head> 中的标签
     head: [
         ['link', {
