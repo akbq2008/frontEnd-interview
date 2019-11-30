@@ -1,27 +1,6 @@
 # 生成不重复的数组
 
-<template>
-  <div >
-   <img src="~@images/day1-bg.jpg" @click="isShow=true">
-  <VideoOverLay :src="currentImg" :isShow="isShow" @closeOverLay="closeOverLay"/>
-  </div>
-</template>
-
-<script>
-export default {
-  data () {
-    return {
-      isShow:false,
-      currentImg:require('@images/day1-bg.jpg')
-    }
-  },
-  methods:{
-    closeOverLay(){
-      this.isShow=false
-    }
-  }
-}
-</script>
+<Preview-Imgs :src="require('@images/day1-bg.jpg')"/>
 
 题目来源于https://github.com/haizlin/fe-interview
 

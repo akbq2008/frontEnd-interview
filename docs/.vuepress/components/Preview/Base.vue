@@ -1,30 +1,23 @@
 <template>
   <div>
-    <div
-      class="overlay"
-      :class="{ hide: !isShow }"
-      @click="close"
-      @touchmove.prevent
-    ></div>
+    <div class="overlay" :class="{ hide: !isShow }" @click="close" @touchmove.prevent></div>
     <div class="dialog_box" :class="{ hide: !isShow }" @touchmove.prevent>
       <div class="videobox">
         <div class="closebtn" @click="close">
           <a href="javascript:void(0)" title="关闭窗口">
-            <img src="../images/close_white.png" />
+            <img src="../../images/close_white.png">
           </a>
         </div>
-        <img :src="src" alt class="picture" v-if="!isVideo" />
+        <img :src="src" alt="" class="picture" v-if="!isVideo">
         <div v-else>
           <video
             :src="src"
-            width
-            height
+            width=""
+            height=""
             class="video"
             controls="controls"
             v-if="isVideoAlive"
-          >
-            Your browser does not support the video tag.
-          </video>
+          >Your browser does not support the video tag.</video>
         </div>
       </div>
     </div>
@@ -44,7 +37,7 @@ export default {
     },
     src: {
       type: String,
-      default: ""
+      default: ''
     },
     isShow: {
       type: Boolean,
@@ -53,7 +46,7 @@ export default {
   },
   methods: {
     close() {
-      this.$emit("closeOverLay");
+      this.$emit('closeOverLay');
     }
   }
 };
