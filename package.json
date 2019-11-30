@@ -5,9 +5,10 @@
   },
   "dependencies": {
     "@vue/cli-service-global": "^4.0.5",
-    "commitlint-config-yl": "^1.0.1"
+    "vuepress": "^1.2.0"
   },
   "devDependencies": {
-    "eslint-config-vuepress": "^2.1.0"
+    "eslint-config-vuepress": "^2.1.0",
+    "commitlint-config-yl": "^1.0.1"
   }
 }
