@@ -14,7 +14,7 @@ for (var i in ifaces) {
 }
 module.exports = {
     title: '我的解题之路',
-    description: '太难了，学不动了！',
+    description: '砥砺前行！',
     host: ip,
     // 注入到当前页面的 HTML <head> 中的标签
     head: [
@@ -68,6 +68,10 @@ module.exports = {
             {
                 text: '前端',
                 items: [
+                    {
+                        text: 'vue',
+                        link: '/vue/'
+                    },
                     {
                         text: 'js',
                         link: '/js/'
