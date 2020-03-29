@@ -11,3 +11,7 @@
 ## Bitwise Operations
 
 [day2:Bitwise Operations](day2.html)
+
+## Array of Multiples
+
+[day3:Array of Multiples](day3.html)
