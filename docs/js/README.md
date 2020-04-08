@@ -20,3 +20,7 @@
 ## Capture the Rook
 
 [day4:Capture the Rook](day4.html)
+
+## Generate a Countdown of Numbers in an Array
+
+[day5:Generate a Countdown of Numbers in an Array](day5.html)
