@@ -24,3 +24,7 @@
 ## Generate a Countdown of Numbers in an Array
 
 [day5:Generate a Countdown of Numbers in an Array](day5.html)
+
+## Both Zero, Negative or Positive
+
+[day6:Both Zero, Negative or Positive](day6.html)
